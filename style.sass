@@ -1,0 +1,157 @@
+@import "./reset.css"
+
+body 
+  font-family: "Roboto", sans-serif
+  font-size: 18px
+  color: #8794ba
+  background: #f8f9ff
+
+
+.none 
+  display: none
+
+@import "header.sass"
+@import "price-cards.sass"
+@import "companies.sass"
+@import "rating-area.sass"
+@import "footer.sass"
+
+
+.main 
+  padding-top: 38px
+  padding-bottom: 109px
+
+
+.features 
+  padding-bottom: 130px
+
+
+.features__top 
+  text-align: center
+
+
+.features__title 
+  margin-bottom: 30px
+
+
+.features__text 
+  margin: 0 auto 81px
+  max-width: 1060px
+
+
+.features__text > p 
+  margin-bottom: 15px
+
+
+.features__row 
+  display: flex
+  justify-content: space-between
+  align-items: center
+  column-gap: 100px
+
+
+.features__column 
+  width: 380px
+  text-align: center
+
+
+.features__column-img 
+  margin-bottom: 26px
+
+
+.features__column-title 
+  margin-bottom: 15px
+  font-weight: 700
+  font-size: 16px
+  line-height: 1.1875
+  color: #172755
+
+
+.features__column-desc 
+  font-size: 16px
+  line-height: 1.375
+
+
+.automated 
+  padding-bottom: 114px
+
+
+.automated__row 
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+
+.automated__row + .automated__row 
+  margin-top: 120px
+
+
+.automated__row:nth-child(even) 
+  flex-direction: row-reverse
+
+
+.automated__column 
+  width: 480px
+  flex-shrink: 0
+
+
+.automated__column-title 
+  margin-bottom: 30px
+
+
+.automated__column-text > p 
+  margin-bottom: 15px
+
+
+.automated__column-img 
+  width: 600px
+  box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2)
+  border-radius: 30px
+
+
+
+
+
+
+.form__authorization 
+  margin-bottom: 16px
+
+
+.form__authorization > * + * 
+  margin-top: 16px
+
+
+.form__auth-btn 
+  padding-left: 105px
+  padding-right: 104px
+  line-height: 48px
+  height: 48px
+  border-radius: 4px
+  background: #722ed1
+  font-weight: 500
+  font-size: 16px
+  color: #ffffff
+
+  transition: background 0.3s ease-in
+
+
+.form__auth-btn:hover 
+  background: #ef2a82
+
+
+.form__auth 
+  padding: 16px
+  width: 100%
+  border: 1px solid #d9d9d9
+  border-radius: 4px
+  color: #2a407c
+
+
+.form__auth::placeholder 
+  font-weight: 500
+  font-size: 16px
+  line-height: 1.187
+  color: #8989a2
+
+
+
